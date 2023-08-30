@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="JQuery.js"></script>
+    <title>Bill System</title>
+</head>
+<body>
+    
+    <div class="header_name">
+        <!-- <img src="mpkv_logo.png"> -->
+        <h1 class="head_name">Billing System</h1>
+    </div>
+
+    <!-- Add Item for Bill -->
+
+    <div class="cart_div">
+        <form action="" id="item_form">
+            <table width="80%" cellpadding="7" class="cart_item_table">
+                <tr>
+                    <td>Item Name</td>
+                    <td>
+                        <input type="text" name="item_name1" id="item_name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Item Price</td>
+                    <td>
+                        <input type="number" name="item_price1" id="item_price">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Item Quantity</td>
+                    <td>
+                        <input type="number" name="item_qty1" id="item_qty">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="submit" class="cart_btn">Add To Cart</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <!-- Generate Item List -->
+
+    <div class="cart_item_list_div">
+        <table width="80%" cellpadding="7" border="1" id="cart_table">
+            <tr>
+                <th>Item Name</th>
+                <th>Item Price</th>
+                <th>Item Quantity</th>
+                <th>Item Cost</th>
+                <th>Action</th>
+            </tr>
+
+            <tbody></tbody>
+        </table>
+        <p id="total_cost">Total Cost : Rs 0</p>
+        <button class="invoice_btn" id="generate_invoice">Generate Invoice</button>        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
