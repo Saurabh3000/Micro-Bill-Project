@@ -1,0 +1,87 @@
+body{
+    margin: 0%;
+    background: url(background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header_name{
+    margin-top: 30px;
+    background-color: azure;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+
+.head_name{
+    display: inline-block;
+    text-decoration: underline;
+    
+}
+
+.cart_div{
+    margin-top: 10px;
+    float: left;
+    width: 50%;
+    height: 500px;
+}
+
+.cart_item_table{
+    padding: 20px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.cart_item_list_div{
+    float: right;
+    width: 50%;
+    height: 500px;
+
+}
+
+#cart_table{
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#total_cost{
+    font-size: 23px;
+    text-decoration: underline;
+    padding: 20px;
+}
+
+input[type="text"], input[type="number"]{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 100;
+    background-color: white;
+}
+
+.cart_btn, .invoice_btn{
+    width: 300px;
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+    font-size: 23px;
+}
+
+.cart_btn:hover, .invoice_btn:hover{
+    background-color: chartreuse;
+}
+
